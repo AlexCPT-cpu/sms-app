@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/inputs/Select.js", "components/inputs/Input.js", "pages/api/hello.js", "components/sidebar/Sidebar.js", "components/sidebar/SettingsModal.js", "components/sidebar/MobileItem.js", "hooks/useSidebar.js", "hooks/useRoutes.js", "hooks/useConversation.js", "components/sidebar/MobileFooter.js", "components/sidebar/DesktopSidebar.js", "components/sidebar/DesktopItem.js", "components/AuthSocialButton.js", "components/modals/Modal.js", "components/modals/LoadingModal.js", "components/modals/GroupChatModal.js", "components/EmptyState.js", "components/Button.js", "pages/_document.js", "pages/_app.js", "pages/index.js", "components/conversations/ConversationBox.js", "components/conversations/ConversationList.js", "components/AvatarGroup.js", "components/Avatar.js"],
   "exclude": ["node_modules"]
 }
